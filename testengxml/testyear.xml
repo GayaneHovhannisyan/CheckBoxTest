@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="testyear">
+    <test name="testyear">
+        <classes>
+            <class name="real.TopMoviesTest">
+
+            </class>
+        </classes>
+    </test>
+
+</suite>

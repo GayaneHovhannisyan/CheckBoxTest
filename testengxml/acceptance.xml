@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "acceptance ">
+    <test name="acceptance">
+        <classes>
+        <class name="dummy.Dummy"/>
+            <class name="real.ElementTextBox">
+                <methods>
+                    <exclude name="fillTestBoxes"/>
+                </methods>
+            </class>
+
+
+        </classes>
+
+
+
+    </test>
+
+
+
+
+
+</suite>
